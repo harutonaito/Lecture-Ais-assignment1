@@ -18,9 +18,7 @@ aws cloudformation deploy \
     --stack-name DB-app2Stack \
     --capabilities CAPABILITY_IAM \
     --parameter-overrides \
-        DBPassword='(パスワードを設定)' \
+        DBPassword='(ここでパスワードを設定)' \
         DBInstanceType='db.t3.micro' \
         InstanceType='t3.micro'
-
-
 ```
